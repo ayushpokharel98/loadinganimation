@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #262626;
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    border-top: 3px solid red;
+    animation: a 3s linear alternate infinite;
+}
+
+.innerdiv1{
+    width: 100px;
+    height: 100px;
+}
+
+.innerdiv2{
+    width: 90px;
+    height: 90px;
+}
+
+.innerdiv3{
+    width: 80px;
+    height: 80px;
+}
+
+.innerdiv4{
+    width: 70px;
+    height: 70px;
+}
+
+.innerdiv5{
+    width: 60px;
+    height: 60px;
+}
+
+.innerdiv6{
+    width: 50px;
+    height: 50px;
+}
+
+.innerdiv7{
+    width: 40px;
+    height: 40px;
+}
+
+.innerdiv8{
+    width: 30px;
+    height: 30px;
+}
+
+.innerdiv9{
+    width: 20px;
+    height: 20px;
+}
+
+.innerdiv10{
+    width: 10px;
+    height: 10px;
+}
+
+@keyframes a {
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}
